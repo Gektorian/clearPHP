@@ -38,6 +38,10 @@ if (is_int($value)) {
 ?>
 ```
 
+## See Also
+* [Avoid Those Functions](avoid-those-functions.md)
+* [No Deprecated](no-deprecated.md)
+
 <!--
 ## When Not To Use It
 
@@ -45,4 +49,4 @@ if (is_int($value)) {
 
 ## Further Reading 
 
-* [PHP functions aliases] (http://php.net/manual/en/aliases.php)
+* [PHP functions aliases] (http://php.net/aliases)

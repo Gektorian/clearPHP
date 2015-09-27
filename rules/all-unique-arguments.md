@@ -14,13 +14,13 @@ f('b', 'c', 'd'); // prints 'd'
 
 ?>
 ```
-The incoming values are assigned to the arguments in the same order than in the method definition : the last one overwrite the first. 
+The incoming values are assigned to the arguments in the same order as in the method definition: the last one overwrites the first. 
 
 ```php
 <?php
 
 function f($a, $b, $a) {
-	echo $b.$a;
+	echo $b , $a;
 }
 
 f('e', 'f', 'g'); // prints 'fg'
@@ -28,7 +28,7 @@ f('e', 'f', 'g'); // prints 'fg'
 ?>
 ```
 
-It is recommended to always use distinct names for arguments variables.
+It is recommended to always use distinct names for argument variables.
 
 ## Rule Details
 
